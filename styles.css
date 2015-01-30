@@ -1,0 +1,415 @@
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: 'Ubuntu', sans-serif;
+			font-family: 'Roboto Condensed', sans-serif;
+			background-color: black;
+		}
+		
+		.banner {
+			background-image: url('images/trans.png');
+			height: 50px;
+			position: fixed;
+			width:100%;
+			z-index: 1;
+		}
+		.logo {
+			position: fixed;
+			z-index: 1;
+		}
+		
+		.photo {
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			height: 450px;
+			position: relative;
+		}
+		.photo span {
+			top: 15%;
+			color: white;
+			display: block;
+			font-size: 38px;
+			padding: 10px;
+			position: absolute;
+			text-shadow: 0 2px 0 black, 0 0 10px black;
+		}
+	
+		.fuse {
+			background-image: url(images/fuse.jpg);
+			height: 750px;
+		}
+		.lens {
+			background-image: url(images/lens.jpg);
+			height: 800px;
+		}
+			.lens-inner {
+				margin-left: -650px;
+				top: 10%;
+				width: 100px;
+			}
+			.lens p {
+				bottom: 20%;
+				color: white;
+				display: block;
+				font-size: 22px;
+				padding: 10px;
+				position: absolute;
+				text-shadow: 0 2px 0 black, 0 0 10px black;
+				width: 400px;
+			}
+		.dancer {
+			background-image: url(images/dancer.jpg);
+			height:750px;
+		}
+			.dancer-inner {
+				margin-left: -500px;
+				top: 10%;
+				width: 100px;
+				
+			}
+		.mountain {
+			background-image: url(images/mountain.jpg);
+			height:750px;
+		}
+			.mountain-inner {
+				margin-left: 200px;
+				top: 10%;
+				width: 100px;
+			}
+			.mountain h3{
+			font-size:15px;}
+			
+		.spider {
+			background-image: url(images/spider.jpg);
+			height:750px;
+		}
+			.spider-inner {
+				margin-left: -500px;
+				top: 10%;
+				width: 100px;
+			}
+
+			.heart {
+			background-image: url(images/heart.jpg);
+			height:750px;
+		}
+			.heart-inner {
+				margin-left: -280px;
+				margin-top: 10%;
+				width: 100px;
+			}
+
+			.oof {
+			background-image: url(images/014.jpg);
+			height:750px;
+		}
+			.oof-inner {
+				margin-left: -500px;
+				top: 10%;
+				width: 100px;
+			}
+			.oof p{
+			top:10%;
+			margin-left:300px;
+			}
+
+			.boyd {
+			background-image: url(images/boyd.jpg);
+			height:750px;
+		}
+			.boyd-inner {
+				margin-left: -500px;
+				top: 10%;
+				width: 100px;
+			}
+			.boyd p{
+			margin-left:390px;
+			}
+			.juk {
+			background-image: url(images/juk.jpg);
+			height:750px;
+		}
+			.juk-inner {
+				margin-left: -500px;
+				top: 10%;
+				width: 100px;
+			}
+			p {
+				bottom: 10%;
+				color: white;
+				display: block;
+				font-size: 22px;
+				padding: 10px;
+				position: absolute;
+				text-shadow: 0 2px 0 black, 0 0 10px black;
+				width: 500px;
+			}
+
+			.toothbrush {
+			background-image: url(images/toothbrush.jpg);
+			height:750px;
+		}
+			.toothbrush-inner {
+				margin-left: -500px;
+				top: 10%;
+				width: 100px;
+			}
+			.urine {
+			background-image: url(images/urine.jpg);
+			height:750px;
+		}
+			.urine-inner {
+				margin-left: -500px;
+				top: 10%;
+				width: 100px;
+			}
+
+			.spirit {
+			background-image: url(images/spirit.jpg);
+			height:750px;
+		}
+			.spirit-inner {
+				margin-left: -500px;
+				top: 10%;
+				width: 100px;
+			}
+		
+			.spider {
+			background-image: url(images/spider.jpg);
+			height:750px;
+		}
+			.spider-inner {
+				margin-left: -500px;
+				top: 10%;
+				width: 100px;
+			}
+		
+
+		
+		
+		
+		.head {
+			background-image: url(images/head.jpg);
+			height: 750px;
+		}
+	
+		.banner ul {
+			color: white;
+			font-size: 20px;
+			font-weight: normal;
+			margin-left: 10%;
+			line-height: 50px;
+			position: fixed;
+			z-index: 1;
+			list-style-type:none;
+			overflow:hidden;
+		}
+		.banner li {
+			float:left;
+		}
+		.banner a
+		{
+			display:block;
+			width:150px;
+			color: white;
+			text-align:center;
+			padding:0px;
+			text-decoration:none;
+		}
+		.banner > ul > li > a:hover,a:active
+		{
+			text-shadow: 0 3px 0 black, 0 3px 5px black;
+		}
+		
+		.banner img{
+			padding:0;
+		}
+		.outer {
+			width: 0; /* Or zero, or something very small */
+			margin: auto;
+			overflow: visible;
+		}
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------
+	The footer
+--------------------------*/
+
+
+footer{
+	height: 245px;
+	font-size:12px;
+    color: #ccc;
+	position:relative;
+	z-index:-2;
+
+	background-color:#303030;
+}
+
+/* Set a width to the outermost UL and center it */
+
+footer > ul{
+	width:960px;
+	position:fixed;
+	left:50%;
+	bottom:0;
+	margin-left:-480px;
+	padding-bottom: 60px;
+	z-index:-1;
+}
+
+/* The four columns of links */
+
+footer > ul > li{
+	width:25%;
+	float:left;
+}
+
+footer ul{
+	list-style: none;
+}
+
+/* The links */
+
+footer > ul > li ul li{
+	margin-left:43px;
+	text-transform: uppercase;
+	font-weight:bold;
+	line-height:1.8;
+}
+
+footer > ul > li ul li a{
+	text-decoration: none !important;
+	color:#7d8691 !important;
+}
+
+footer > ul > li ul li a:hover{
+	color:#ddd !important;
+}
+
+/* The company logo */
+
+footer a.logo i{
+	font-style: normal;
+	position: absolute;
+	width: 60px;
+	display: block;
+	left: 48px;
+	top: 18px;
+	font-size: 12px;
+	color: #999;
+}
+
+footer a.logo:before{
+	content: '';
+	display: inline-block;
+	width: 48px;
+	height: 37px;
+	vertical-align: text-top;
+}
+
+/* Common styles for the four color bars */
+
+footer p{
+	width: 90%;
+	margin-right: 10%;
+	padding: 9px 0;
+	line-height: 18px;
+	background-color: #058cc7;
+	font-weight: bold;
+	font-size: 14px;
+	color:#fff;
+	text-transform: uppercase;
+	text-shadow: 0 1px rgba(0,0,0,0.1);
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	margin-bottom: 20px;
+	opacity:0.9;
+	cursor:default;
+
+	-webkit-transition: opacity 0.4s;
+	-moz-transition: opacity 0.4s;
+	transition: opacity 0.4s;
+}
+
+footer > ul > li:hover p{
+	opacity:1;
+}
+
+footer p:before{
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	margin: 0 12px 0 15px;
+	vertical-align: text-bottom;
+}
+
+
+/*-------------------------
+	The different colors
+--------------------------*/
+
+
+footer p.home{
+	background-color: #0096d6;
+}
+
+footer p.home:before{
+	background-position: 0 -110px;
+}
+
+footer p.services{
+	background-color: #00b274;
+
+	background-image:-webkit-linear-gradient(top, #00b274, #00a46b);
+	background-image:-moz-linear-gradient(top, #00b274, #00a46b);
+	background-image:linear-gradient(top, #00b274, #00a46b);
+}
+
+footer p.services:before{
+	background-position: 0 -129px;
+}
+
+footer p.reachus{
+	background-color: #d75ba2;
+
+	background-image:-webkit-linear-gradient(top, #d75ba2, #c75496);
+	background-image:-moz-linear-gradient(top, #d75ba2, #c75496);
+	background-image:linear-gradient(top, #d75ba2, #c75496);
+}
+
+footer p.reachus:before{
+	background-position: 0 -89px;
+}
+
+footer p.clients{
+	background-color: #e9ac40;
+
+	background-image:-webkit-linear-gradient(top, #e9ac40, #d89f3b);
+	background-image:-moz-linear-gradient(top, #e9ac40, #d89f3b);
+	background-image:linear-gradient(top, #e9ac40, #d89f3b);
+}
+
+footer p.clients:before{
+	background-position: 0 -69px;
+}
